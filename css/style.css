@@ -37,3 +37,33 @@
 #onpage{
     text-decoration: underline overline;
 }
+
+/* Following rules below are for the side bar */
+
+#sidebar{
+    position: fixed;
+    right: 0;
+    background-color: red;
+    height: 100%;
+    width: 20%;
+}
+
+#sidebar-container li{
+    list-style-type: none;
+}
+
+#sidebar-container li a{
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color:#fff
+}
+
+#sidebar-container ul{
+    padding: 0;
+}
+
+#sidebar-container a:hover{
+    background-color: #000;
+}

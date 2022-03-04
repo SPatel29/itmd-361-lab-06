@@ -1,13 +1,11 @@
 #main-navbar{
     background-color: blue;
     overflow: hidden;
-    width: 100%;
 }
 #navbar-container{
     position: relative;
     float: left;
-    left: 50%;
-    display: block;
+    width: 100%;
 }
 
 #navbar-container ul{
@@ -15,18 +13,22 @@
     padding: 0;
     float: left;
     position: relative;
-    right: 50%;
-    display: block;
+    left: 50%;
+
 }
 #navbar-container li{
     list-style-type: none;
     float: left;
-    padding: 10px 20px;
+    position: relative;
+    right: 50%;
+    display: block;
 }
 
 #navbar-container li a{
     text-decoration: none;
-    color: white;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
 }
 
 #navbar-container li:hover{
@@ -35,7 +37,3 @@
 #onpage{
     text-decoration: underline overline;
 }
-
-
-
-
